@@ -16,15 +16,18 @@
         <input type="radio" name="grupo" id="pedra">PEDRA
         <input type="radio" name="grupo" id="papel">PAPEL
         <input type="radio" name="grupo" id="tesoura">TESOURA
-        <P>
-            <input type="button" value="JOGAR" id="jogar" onclick="jogar()">
-            <input type="reset" value="RESETAR" id="resetar" onclick="resetar()">
-        </P>
+
+            <p>
+                    <input type="button" value="JOGAR" onclick="jogar()">
+                    <input type="reset" value="RESETAR" onclick="resetar()">
+            </P>
     </form>
+    
     <hr>
     <h1>Computador</h1>
     <img src="pc.png" alt="PC" id="pc">
     <hr>
-    <script>jokenpo.js</script>
+    <h3 id="placar"></h3>
+    <script src="jokenpo.js"></script>
 </body>
 </html>
