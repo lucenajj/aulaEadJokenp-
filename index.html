@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Jokenpô</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>JOGO JOKENPÔ</h1>
-    <img src="pedra.png" alt="PEDRA" id="pedra">
-    <img src="papel.png" alt="PAPEL" id="papel">
-    <img src="tesoura.png" alt="TESOURA" id="tesoura">
-    <form name='formJokenpo'>
-        <input type="radio" name="grupo" id="pedra">PEDRA
-        <input type="radio" name="grupo" id="papel">PAPEL
-        <input type="radio" name="grupo" id="tesoura">TESOURA
+    <hr />
+    <h1>JOGADOR</h1>
+    <img src="pedra.png" alt="PEDRA"  />
+    <img src="papel.png" alt="PAPEL"  />
+    <img src="tesoura.png" alt="TESOURA" />
 
-            <p>
-                    <input type="button" value="JOGAR" onclick="jogar()">
-                    <input type="reset" value="RESETAR" onclick="resetar()">
-            </P>
+    <form name="formJokenpo">
+      <input type="radio" name="grupo" id="pedra" />PEDRA
+      <input type="radio" name="grupo" id="papel" />PAPEL
+      <input type="radio" name="grupo" id="tesoura" />TESOURA
+
+      <p>
+        <input type="button" value="JOGAR" onclick="jogar()" />
+        <input type="reset" value="RESETAR" onclick="resetar()" />
+      </p>
     </form>
-    
-    <hr>
-    <h1>Computador</h1>
-    <img src="pc.png" alt="PC" id="pc">
-    <hr>
+    <hr />
+    <h3>COMPUTADOR:</h3>
+    <img src="pc.png" alt="PC" id="pc" />
+    <hr />
     <h3 id="placar"></h3>
     <script src="jokenpo.js"></script>
-</body>
+  </body>
 </html>
